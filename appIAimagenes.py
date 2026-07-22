@@ -34,6 +34,11 @@ st.set_page_config(
 
 st.title("🤖 Detector de Imágenes IA")
 
+st.image(
+    "portada.png",
+    use_container_width=True
+)
+
 
 st.write(
     "Detecta probabilidad de IA y analiza posibles modificaciones."
